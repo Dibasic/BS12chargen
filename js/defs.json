@@ -1,0 +1,272 @@
+{
+	"depts" : [
+		{
+			"name": "Command",
+			"jobs": [
+				{
+					"titles" : ["Commanding Officer"],
+					"rates" : {"ec" : ["O6"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Executive Officer"],
+					"rates" : {"ec" : ["O5"], "fleet" : ["O4", "O5"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Senior Enlisted Advisor"],
+					"rates" : {"fleet" : ["E8", "E9", "E9a"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Bridge Officer"],
+					"rates" : {"ec" : ["O1"], "fleet" : ["O1"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["SolGov Representative"],
+					"rates" : {"scg" : ["gov"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Workplace Liason", "Corporate Representative", "Corporate Executive", "Union Representative"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Engineering",
+			"jobs": [
+				{
+					"titles" : ["Chief Engineer"],
+					"rates" : {"ec" : ["O3"], "fleet" : ["O2", "O3"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Senior Engineer"],
+					"rates" : {"ec" : ["E7"], "fleet" : ["E7", "E8"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Engineer"],
+					"rates" : {"ec" : ["E3", "E5"], "fleet" : ["E2", "E3", "E4", "E5"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Engineer Trainee"],
+					"rates" : {"ec" : ["E3"], "fleet" : ["E2"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Engineering Contractor"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Exploration",
+			"jobs": [
+				{
+					"titles" : ["Pathfinder"],
+					"rates" : {"ec" : ["O1"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Shuttle Pilot"],
+					"rates" : {"civ" : ["contractor"], "ec" : ["E7"], "fleet" : ["E7"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Explorer"],
+					"rates" : {"ec" : ["E7"], "fleet" : ["E7"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Medical",
+			"jobs": [
+				{
+					"titles" : ["Chief Medical Officer"],
+					"rates" : {"ec" : ["O3"], "fleet" : ["O3", "O4"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Physician", "Surgeon", "Trauma Surgeon"],
+					"rates" : {"ec" : ["O1"], "fleet" : ["O1", "O2"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Corpsman", "Field Medic", "Paramedic"],
+					"rates" : {"ec" : ["E3", "E5"], "fleet" : ["E2", "E3", "E4", "E5", "E6"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Medical Contractor"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Research",
+			"jobs": [
+				{
+					"titles" : ["Research Director"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Senior Researcher"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Xenolife Technician"],
+					"rates" : {"ec" : ["E5", "E7", "O1"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Research Assistant", "Custodian", "Testing Assistant", "Laboratory Technician", "Intern", "Clerk", "Field Assistant"],
+					"rates" : {"civ" : ["contractor"], "scg" : ["scientist"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Security",
+			"jobs": [
+				{
+					"titles" : ["Chief of Security"],
+					"rates" : {"ec" : ["O3"], "fleet" : ["O2", "O3"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Brig Officer"],
+					"rates" : {"ec" : ["E7"], "fleet" : ["E6", "E7", "E8"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Forensic Technician"],
+					"rates" : {"civ" : ["contractor"], "ec" : ["E3", "E5"], "fleet" : ["E4", "E5"], "scg" : ["agent"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Master at Arms"],
+					"rates" : {"ec" : ["E3"], "fleet" : ["E2", "E3", "E4"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Service",
+			"jobs": [
+				{
+					"titles" : ["Sanitation Technician"],
+					"rates" : {"civ" : ["contractor"], "ec" : ["E3"], "fleet" : ["O2", "O3", "O4"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Cook", "Chef", "Culinary Specialist"],
+					"rates" : {"civ" : ["contractor"], "ec" : ["E3"], "fleet" : ["E2", "E3", "E4"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Bartender"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Crewman"],
+					"rates" : {"ec" : ["E3"], "fleet" : ["E2", "E3", "E4"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Supply",
+			"jobs": [
+				{
+					"titles" : ["Deck Chief"],
+					"rates" : {"ec" : ["E7"], "fleet" : ["E6", "E7", "E8"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Deck Technician"],
+					"rates" : {"ec" : ["E3"], "fleet" : ["E2", "E3", "E4"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Supply Assistant"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				},
+				{
+					"titles" : ["Prospector", "Drill Technician", "Shaft Miner", "Salvage Technician"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "Test"
+				}
+			]
+		},
+		{
+			"name": "Other",
+			"jobs": [
+				{
+					"titles" : ["Passenger", "Journalist", "Historian", "Botanist", "Investor", "Naturalist", "Ecologist", "Entertainer", "Independent Observer", "Sociologist", "Trainer"],
+					"rates" : {"civ" : ["civ"]},
+					"desc" : "Test"
+				}
+			]
+		}
+	],
+	"branches" : {
+		"civ" : {
+			"desc" : "Civilian",
+			"rates" : [
+				{"rate" : "civ", "name" : "Civilian", "abbrev" : ""},
+				{"rate" : "contractor", "name" : "Contractor", "abbrev" : ""}
+			]
+		},
+		"ec" : {
+			"desc" : "Expeditionary Corps",
+			"rates" : [
+				{"rate" : "E3", "name" : "Explorer", "abbrev" : "XPL"},
+				{"rate" : "E5", "name" : "Senior Explorer", "abbrev" : "SXPL"},
+				{"rate" : "E7", "name" : "Chief Explorer", "abbrev" : "CXPL"},
+				{"rate" : "O1", "name" : "Ensign", "abbrev" : "ENS"},
+				{"rate" : "O3", "name" : "Lieutenant", "abbrev" : "LT"},
+				{"rate" : "O5", "name" : "Commander", "abbrev" : "CDR"},
+				{"rate" : "O6", "name" : "Captain", "abbrev" : "CAPT"}
+			]
+		},
+		"fleet" : {
+			"desc" : "Fleet",
+			"rates" : [
+				{"rate" : "E2", "name" : "Crewman Apprentice", "abbrev" : "CA"},
+				{"rate" : "E3", "name" : "Crewman", "abbrev" : "CN"},
+				{"rate" : "E4", "name" : "Petty Officer Third Class", "abbrev" : "PO3"},
+				{"rate" : "E5", "name" : "Petty Officer Second Class", "abbrev" : "PO2"},
+				{"rate" : "E6", "name" : "Petty Officer First Class", "abbrev" : "PO1"},
+				{"rate" : "E7", "name" : "Chief Petty Officer", "abbrev" : "CPO"},
+				{"rate" : "E8", "name" : "Senior Chief Petty Officer", "abbrev" : "SCPO"},
+				{"rate" : "E9", "name" : "Master Chief Petty Officer", "abbrev" : "MCPO"},
+				{"rate" : "E9a", "name" : "Command Master Chief Petty Officer", "abbrev" : "CMCPO"},
+				{"rate" : "O1", "name" : "Ensign", "abbrev" : "ENS"},
+				{"rate" : "O2", "name" : "Sub-Lieutenant", "abbrev" : "SLT"},
+				{"rate" : "O3", "name" : "Lieutenant", "abbrev" : "LT"},
+				{"rate" : "O4", "name" : "Lieutenant Commander", "abbrev" : "LCDR"},
+				{"rate" : "O5", "name" : "Commander", "abbrev" : "CDR"}
+			]
+		},
+		"scg" : {
+			"desc" : "Sol Central Government",
+			"rates" : [
+				{"rate" : "gov", "name" : "SolGov Representative", "abbrev" : ""},
+				{"rate" : "agent", "name" : "OCIE Agent", "abbrev" : "Agent"},
+				{"rate" : "scientist", "name" : "Government Scientist", "abbrev" : ""}
+			]
+		}
+	}
+}

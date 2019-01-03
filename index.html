@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BS12 Chargen</title>
+		<meta name="description" content="Random character generator for the Baystation 12 SS13 server">
+		<meta name="keywords" content="SS13,BS12,Baystation,random,character,background,generator,creator">
+		<meta name="author" content="Persona E">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+
+	</head>
+	<body>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+		<script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+		<script src="js/main.js"></script>
+
+		<h2 class="demoHeaders">chargen placeholder</h2>
+		<fieldset>
+			<legend>Reroll Selections</legend>
+			<button id="roll">↺</button>
+		</fieldset>
+		<fieldset>
+			<legend>Job</legend>
+			<fieldset>
+				<legend>Department</legend>
+				<div class="controlgroup">
+					<label for="lockDept"><span class="lock">🔒</span></label>
+					<input type="checkbox" id="lockDept"/>
+					<select id="dept"></select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Position</legend>
+				<div class="controlgroup" id="groupJob">
+					<label for="lockJob"><span class="lock">🔒</span></label>
+					<input type="checkbox" id="lockJob"/>
+					<select id="job"></select>
+				</div>
+				<div class="controlgroup" id="groupTitle">
+					<label for="lockTitle"><span class="lock">🔒</span></label>
+					<input type="checkbox" id="lockTitle"/>
+					<select id="title"></select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Branch and Rate</legend>
+				<div class="controlgroup" id="groupBranch">
+					<label for="lockBranch"><span class="lock">🔒</span></label>
+					<input type="checkbox" id="lockBranch"/>
+					<select id="branch"></select>
+				</div>
+				<div class="controlgroup" id="groupRate">
+					<label for="lockRate"><span class="lock">🔒</span></label>
+					<input type="checkbox" id="lockRate"/>
+					<select id="rate"></select>
+				</div>
+			</fieldset>
+		</fieldset>
+<!--
+		<div class="controlgroup">
+			<button id="run">Roll</button>
+			<select id="car-type">
+				<option>Compact car</option>
+				<option>Midsize car</option>
+				<option>Full size car</option>
+				<option>SUV</option>
+				<option>Luxury</option>
+				<option>Truck</option>
+				<option>Van</option>
+			</select>
+			<label for="transmission-standard">Standard</label>
+			<input type="radio" name="transmission" id="transmission-standard">
+			<label for="transmission-automatic">Automatic</label>
+			<input type="radio" name="transmission" id="transmission-automatic">
+			<label for="insurance">Insurance</label>
+			<input type="checkbox" name="insurance" id="insurance">
+			<label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+			<input id="horizontal-spinner" class="ui-spinner-input">
+			<button>Book Now!</button>
+		</div>
+-->
+	</body>
+</html>

@@ -165,7 +165,7 @@
 			"jobs": [
 				{
 					"titles" : ["Sanitation Technician"],
-					"rates" : {"civ" : ["contractor"], "ec" : ["E3"], "fleet" : ["O2", "O3", "O4"]},
+					"rates" : {"civ" : ["contractor"], "ec" : ["E3"], "fleet" : ["E2", "E3", "E4"]},
 					"desc" : "Test"
 				},
 				{

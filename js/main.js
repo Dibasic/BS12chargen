@@ -138,7 +138,7 @@ function populateRate(deptName, jobName, branch) {
                 var rateName = getRateName(branch, rates[r])
                 var option = $('<option>', {
                     label: rateName,
-                    value: rateName,
+                    value: branch + '.' + rates[r],
                     html: rateName
                 });
                 option.appendTo('#rate');
@@ -164,6 +164,24 @@ function populateRateFromJob() {
     return populateRate($('#dept').val(), $('#job').val(), $('#branch').val());
 }
 
+function getRateDesc(branch, rate) {
+    if (defs.branches[branch].rates && defs.branches[branch].rates[0].desc) {
+        for (var i = 0; i < defs.branches[branch].rates.length; i++) {
+            if (defs.branches[branch].rates[i].rate == rate) {
+                return defs.branches[branch].rates[i].desc;
+            }
+        }
+    }
+    return 'There is no description for this rate.';
+}
+
+function populateDescFromRate() {
+    var rate = $('#rate').val().split('.');
+    var desc = getRateDesc(rate[0], rate[1]);
+    $('#descRate').html(desc);
+    return desc;
+}
+
 function setBindings() {
     console.log('setting bindings');
 
@@ -176,6 +194,9 @@ function setBindings() {
     });
     $('#branch').on('selectmenuchange', function() {
         populateRateFromJob();
+    })
+    $('#rate').on('selectmenuchange', function() {
+        populateDescFromRate();
     })
 
     $('#roll').on('click', roll);

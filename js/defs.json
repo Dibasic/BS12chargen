@@ -225,39 +225,154 @@
 		"civ" : {
 			"desc" : "Civilian",
 			"rates" : [
-				{"rate" : "civ", "name" : "Civilian", "abbrev" : ""},
-				{"rate" : "contractor", "name" : "Contractor", "abbrev" : ""}
+				{
+					"rate" : "civ",
+					"name" : "Civilian",
+					"abbrev" : "",
+					"desc" : "You are a civilian, not contracted for a specific job on the Torch."
+				},
+				{
+					"rate" : "contractor",
+					"name" : "Contractor",
+					"abbrev" : "",
+					"desc" : "You are a contractor working for the Expeditionary Corps Organization, whether through independent contract or employment with one of the large corporations that makes up the bulk of the EXO workforce."
+				}
 			]
 		},
 		"ec" : {
 			"desc" : "Expeditionary Corps",
 			"rates" : [
-				{"rate" : "E3", "name" : "Explorer", "abbrev" : "XPL"},
-				{"rate" : "E5", "name" : "Senior Explorer", "abbrev" : "SXPL"},
-				{"rate" : "E7", "name" : "Chief Explorer", "abbrev" : "CXPL"},
-				{"rate" : "O1", "name" : "Ensign", "abbrev" : "ENS"},
-				{"rate" : "O3", "name" : "Lieutenant", "abbrev" : "LT"},
-				{"rate" : "O5", "name" : "Commander", "abbrev" : "CDR"},
-				{"rate" : "O6", "name" : "Captain", "abbrev" : "CAPT"}
+				{
+					"rate" : "E3",
+					"name" : "Explorer",
+					"abbrev" : "XPL",
+					"desc" : "Congratulations, you passed basic training. Now you're off to more advanced training schools or your first assignment. You're probably still 18 or 19. You've just got to your first assignment. Congratulations! Most of your work is on the job training, unless you're something specialised, like engineering, medical or security, in which case you'll be having a fun couple of months getting to grips with your trade before most of your learning is done on the job. Your skills are basic, but you sure are eager! You'll be sitting at this rank for a long time though, given that it's the baseline for Expeds. Eventually you'll probably become pretty competent in your area and accustomed to ship life. As such, EC E-3's vary wildly in experience, length of service and competence compared to their DF counterparts. As such you could be around 18-28 on average."
+				},
+				{
+					"rate" : "E5",
+					"name" : "Senior Explorer",
+					"abbrev" : "SXPL",
+					"desc" : "Congratulations, you're on the NCO ladder. You're experienced, you've just been on a \"leadership course.\" Good luck. You're somewhat reliable, sensible and professional. You aren't making it past this grade unless you can show you can function in a hierarchy. You've had leadership training! You're expected to know your job pretty well, better than all those E-3's. You're expected to organise, specialise and maintain expeditionary operations on the lower level. You are the cog keeping the expedition machine turning. At least for most areas. In others, you are a specialist, someone who's skills and abilities mean they require more pay and a higher rank. E-5 is far broader in variety for the EC than the other branches."
+				},
+				{
+					"rate" : "E7",
+					"name" : "Chief Explorer",
+					"abbrev" : "CXPL",
+					"desc" : "Congratulations, you're an SNCO. People at this grade are experienced, long serving professionals. They don't make mistakes often, they know policy and protocol, and they don't do stupid shit. These people are the cream of the crop, the ones who know the regs, know their job, know their ship, know their duty and know how to talk to their superiors and subordinates alike. These are the people that keep the DF/EC from falling apart. You're a Chief Explorer now. The top of the EC Enlisted chain. You know your business, you've gone back to leadership school. You're expected to train, manage and look after specialists, coordinating your E-5's and helping with issues as they arise. You bridge the gap between EC Officers and their teams. You're a middleman, but a good one, with the skils and experience to back up what you know and to advise as you need. You've been in the EC for a damn long time and you'll be damned if you're going to let anyone let it look bad infront of the Defence Forces. You're probably between 28-40. You're expected to ensure the training of your subordinates is being carried out properly, you're also directly responsible for training junior officers in their duties."
+				},
+				{
+					"rate" : "O1",
+					"name" : "Ensign",
+					"abbrev" : "ENS",
+					"desc" : "Well you made it out of officer candidate/introductory school/the expeditionary academy. You're lean, mean and green. You might think you know it all, but in truth, Your E-7+'s are having to hold your hand through everything. You're the officer equivalent of an E-2. You've attended the expeditionary academy and learned how to be officery and things relevant to your area in the EC. For some, you're a specialist hired for your skills rather than your military/sciencey inclinations, as is the case for a doctor. Medical Doctor O-1's will generally be between 28-32, given they went to med school, and haven't had leadership training. All other O-1's are likely to be 23-25. Officers have degrees. They have been to university/college. This is the baseline officer rank, you can expect to be here for awhile until you've built up experience and skills and gone off for leadership training to be put incharge of something. Junior Officers may have a lot of overconfidence and bluster, they do not give shit to E-7+'s and their superior officers. They know this is a one way ticket to getting discharged."
+				},
+				{
+					"rate" : "O3",
+					"name" : "Lieutenant",
+					"abbrev" : "LT",
+					"desc" : "Congratulations, this is basically the middle of the board as far as officers go. You've got leadership training, experience and skills under your belt. You're the upper end of the \"Junior officers\" list. You can be expected to run whatever you've been put in charge of and to do a damn good job of it. You still take some guidance from your E-7's but you know when to handle things yourself and when to let them handle it now. You've shown your superiors you have what it takes. They're about on par with an E-6 in terms of experience, authority and skills. You're probably between 27-34 and have been given your own department/other thing to run. Junior Officers may have a lot of overconfidence and bluster, they do not give shit to E-7+'s and their superior officers. They know this is a one way ticket to getting discharged."
+				},
+				{
+					"rate" : "O5",
+					"name" : "Commander",
+					"abbrev" : "CDR",
+					"desc" : "You're pretty high up now, you may be the first/executive officer of a vessel, the Captains right hand or in charge of your own, smaller vessel. You're probably between 38-48. A leader, an administrator, a manager. You know your stuff. You lead, you set direction. You rarely go into the field yourself anymore though, sometimes, when the Captain needs things to get done, he may send you down. (Who knows how you may have somehow ended up as an XO on a ship.)"
+				},
+				{
+					"rate" : "O6",
+					"name" : "Captain",
+					"abbrev" : "CAPT",
+					"desc" : "Congratulations, you're right below flag officers and admirals. You're in command of a ship, station or maybe even a small flotilla of ships. You're probably between 44-60. You're the best your branch has to offer. You know your business, you have the political savvy to get your own (likely large/important) command and you know how to handle your subordinates, delegate like a champion and placate the admiralty. You're not going to get here by being an idiot. You are the final say aboard your ship and you know it. Be confident, but not stupid. You went to a senior staff school/college. Captains are competent, highly skilled and educated."
+				}
 			]
 		},
 		"fleet" : {
 			"desc" : "Fleet",
 			"rates" : [
-				{"rate" : "E2", "name" : "Crewman Apprentice", "abbrev" : "CA"},
-				{"rate" : "E3", "name" : "Crewman", "abbrev" : "CN"},
-				{"rate" : "E4", "name" : "Petty Officer Third Class", "abbrev" : "PO3"},
-				{"rate" : "E5", "name" : "Petty Officer Second Class", "abbrev" : "PO2"},
-				{"rate" : "E6", "name" : "Petty Officer First Class", "abbrev" : "PO1"},
-				{"rate" : "E7", "name" : "Chief Petty Officer", "abbrev" : "CPO"},
-				{"rate" : "E8", "name" : "Senior Chief Petty Officer", "abbrev" : "SCPO"},
-				{"rate" : "E9", "name" : "Master Chief Petty Officer", "abbrev" : "MCPO"},
-				{"rate" : "E9a", "name" : "Command Master Chief Petty Officer", "abbrev" : "CMCPO"},
-				{"rate" : "O1", "name" : "Ensign", "abbrev" : "ENS"},
-				{"rate" : "O2", "name" : "Sub-Lieutenant", "abbrev" : "SLT"},
-				{"rate" : "O3", "name" : "Lieutenant", "abbrev" : "LT"},
-				{"rate" : "O4", "name" : "Lieutenant Commander", "abbrev" : "LCDR"},
-				{"rate" : "O5", "name" : "Commander", "abbrev" : "CDR"}
+				{
+					"rate" : "E2",
+					"name" : "Crewman Apprentice",
+					"abbrev" : "CA",
+					"desc" : "Congratulations, you passed basic training. Now you're off to more advanced training schools or your first assignment. You're probably still 18 or 19. You're probably getting taught basic drill and how to become accustomed to ship life and the basic tasks that you'll be expected to carry out before going onto more advanced training. Some basic weapons training included. You're probably going to have a deeply ingrained sense of respect for your institution and adherence to the chain of command has been drilled into you from day one."
+				},
+				{
+					"rate" : "E3",
+					"name" : "Crewman",
+					"abbrev" : "CN",
+					"desc" : "Congratulations, you're still junior enlisted, but you've shown you've got what it takes to progress. You have some skill or proficiency and the routine of military life is settling in. You're probably around 19-20. You're making good progress to your rating, you're still going between on the job and on base training and you've got those exams coming up, but you've finally mastered the basics. One day you'll have the respect you probably don't deserve and the rank to show it."
+				},
+				{
+					"rate" : "E4",
+					"name" : "Petty Officer Third Class",
+					"abbrev" : "PO3",
+					"desc" : "Congratulations, you're on the NCO ladder. You're probably 20-22. You're experienced, you've just been on a \"leadership course.\" Good luck. You're somewhat reliable, sensible and professional. You aren't making it past this grade unless you can show you can function in a hierarchy. You've finally earned your rating, you're now a fully fledged engineer/master at arms/corpsman/logistics specialist. You've been through the training, the exams and the lengthy courses and experience requirements necessary for someone to call you Petty Officer. You're expected to know your job, know the regs as they apply to it, are expected to do your job independently and with minimal supervision and are there to help train new Crewmen. Minor leadership training."
+				},
+				{
+					"rate" : "E5",
+					"name" : "Petty Officer Second Class",
+					"abbrev" : "PO2",
+					"desc" : "E-5+'s and above are not fuckups. Congratulations, you're climbing the ladder. You're probably between 21-26 now. You're an NCO, you know your business. Noone should have to tell you twice. You're competent, you know your area, you're responsible for others. You know how to stay out of trouble and you don't make common mistakes. Petty Officer Second Class now, you've had more training, more leadership training, more specialisation. You're pretty damn good at your area of work and you know your business to a pretty good level. You know your duties and you know all the little quirks and peculiarities of your job."
+				},
+				{
+					"rate" : "E6",
+					"name" : "Petty Officer First Class",
+					"abbrev" : "PO1",
+					"desc" : "E-5+'s and above are not fuckups. You're at the top of the ladder as far as people who know their speciality are concerned in most circumstances. You've had yet more leadership training, you've passed more exams and you know a damn lot about your area of work. More than most junior/middle level officers, actually."
+				},
+				{
+					"rate" : "E7",
+					"name" : "Chief Petty Officer",
+					"abbrev" : "CPO",
+					"desc" : "Congratulations, you're an SNCO. These people are the cream of the crop, the ones who know the regs, know their job, know their ship, know their duty and know how to talk to their superiors and subordinates alike. These are the people that keep the DF/EC from falling apart. You're probably between 28-40. You're expected to ensure the training of your subordinates is being carried out properly, you're also directly responsible for training junior officers in their duties. People at this grade and above are experienced, long serving professionals. They don't make mistakes often, they know policy and protocol, and they don't do stupid shit. You're a Chief Petty Officer. A highly selective process. You've gone to yet more leadership courses, you've been judged by a board of other SNCO's to get here. You know your job well, and the Fleet better. You organise, you delegate, you lead. You get your hands dirty when you have to, but you rarely have to. You're the one the officers come to when things need to happen. You're the one the enlisted some to when they have an obscure technical issue that needs fixing."
+				},
+				{
+					"rate" : "E8",
+					"name" : "Senior Chief Petty Officer",
+					"abbrev" : "SCPO",
+					"desc" : "People at this grade and above are experienced, long serving professionals. They don't make mistakes often, they know policy and protocol, and they don't do stupid shit. Senior Chief, you spend most of your time managing, advising, and assisting as needed. You're a master of delegation. You've been here a very long time. You know it all. And you know that you are not going to through away what you've earned and will earn by doing something stupid. You know your job inside and out, and the Fleet as a whole. Like an E-7, but more experienced in the arts of senior non-comming. You're probably between 34-48."
+				},
+				{
+					"rate" : "E9",
+					"name" : "Master Chief Petty Officer",
+					"abbrev" : "MCPO",
+					"desc" : "The top of the Enlisted food chain. You're probably between 38-54. This is it. You have the experience and length of service far outclassing most above you. You've been here longer than many Captains. One of the few. You know your business, you're someone who showed ambition as well as competence. Now you spend all your time advising, inspecting and doing paperwork. Your practical skills may drop a bit given your area of focus has moved toward the theoretical, but you're not someone to mess with. And most won't. You advise officers, you generally know best. If there was someone who was beyond reproach, this is them."
+				},
+				{
+					"rate" : "E9a",
+					"name" : "Command Master Chief Petty Officer",
+					"abbrev" : "CMCPO",
+					"desc" : "The top of the Enlisted food chain. You're probably between 38-54. This is it. You have the experience and length of service far outclassing most above you. You've been here longer than many Captains. One of the few. You know your business, you're someone who showed ambition as well as competence. Now you spend all your time advising, inspecting and doing paperwork. Your practical skills may drop a bit given your area of focus has moved toward the theoretical, but you're not someone to mess with. And most won't. You advise officers, you generally know best. If there was someone who was beyond reproach, this is them."
+				},
+				{
+					"rate" : "O1",
+					"name" : "Ensign",
+					"abbrev" : "ENS",
+					"desc" : "Well you made it out of officer candidate/introductory school/the expeditionary academy. You're lean, mean and green. You might think you know it all, but in truth, Your E-7+'s are having to hold your hand through everything. You're the officer equivalent of an E-2. You've either passed out of a mildly difficult training/testing school in the case of the Fleet, or attended the expeditionary academy and learned how to be officery and things relevant to your area in the EC. For some, you're a specialist hired for your skills rather than your military/sciencey inclinations, as is the case for a doctor. You're new, you're here, you're learning how to do your job under more experienced officers and SNCO's. You have the qualifications necessary to function at a basic level in your assigned area. You're probably in a junior officer position or a doctor. Medical Doctor O-1's will generally be between 28-32, given they went to med school. All other O-1's are likely to be 23-25. Officers have degrees. They have been to university/college. If you're a doctor, someone's probably taught you how to hold the military equivalent of a knife and fork properly. Your training was more about how to \"fit in\" and less about military bluster. You haven't had leadership training. That being said, you're expected to act like an officer, same as any other. Junior Officers may have a lot of overconfidence and bluster, they do not give shit to E-7+'s and their superior officers. They know this is a one way ticket to getting discharged."
+				},
+				{
+					"rate" : "O2",
+					"name" : "Sub-Lieutenant",
+					"abbrev" : "SLT",
+					"desc" : "You've been an O-1 for a year, you're starting to fit in, you've just got a promotion. You're probably 24-26. 28-32 if you're a doctor. You're now marginally more independent. But you're still learning. You're probably a staff officer or someone's maybe trusted you with more leadership and authority. You're settled in. You're probably still pretty motivated. Like an O-1 but with a year of service under their belt. Junior Officers may have a lot of overconfidence and bluster, they do not give shit to E-7+'s and their superior officers. They know this is a one way ticket to getting discharged."
+				},
+				{
+					"rate" : "O3",
+					"name" : "Lieutenant",
+					"abbrev" : "LT",
+					"desc" : "Congratulations, this is basically the middle of the board as far as officers go. You've got leadership training, experience and skills under your belt. You're the upper end of the \"Junior officers\" list. You can be expected to run whatever you've been put in charge of and to do a damn good job of it. You still take some guidance from your E-7's but you know when to handle things yourself and when to let them handle it now. You've shown your superiors you have what it takes. They're about on par with an E-6 in terms of experience, authority and skills. You're probably between 27-34 and have been given your own department/other thing to run. You may also be a MUSTANG. A former enlisted person who has now gotten a degree of some kind and has been promoted to an appropriate officer grade based on their skills and experience. Typically this only happens in the E-7/8 area, and these people get bumped up to O-3. If this is the case, you may be a bit more \"rough around the edges\" as an officer, but with far more enlisted savvy and experience in your area. Though, some other officers may look down upon you as \"not a proper officer.\" Junior Officers may have a lot of overconfidence and bluster, they do not give shit to E-7+'s and their superior officers. They know this is a one way ticket to getting discharged."
+				},
+				{
+					"rate" : "O4",
+					"name" : "Lieutenant Commander",
+					"abbrev" : "LCDR",
+					"desc" : "You're now heading into senior officer territory. You're even more administrative than you were before and far above any of that \"hands on work\" business. You're a professional, you no longer need the handholding of your E-7's. You set direction, give orders, make policies, confer with colleagues and liaise with different areas of staff. In the Fleet you're pretty much a pencil pusher, probably in charge of a smaller ship or a department on a very large on. You're roughly on par with an E-7 in the enlisted tree. You're probably between 30-42."
+				},
+				{
+					"rate" : "O5",
+					"name" : "Commander",
+					"abbrev" : "CDR",
+					"desc" : "You're pretty high up now, you may be the first/executive officer of a vessel, the Captains right hand or in charge of your own, smaller vessel. You're probably between 38-48. A leader, an administrator, a manager. You know your stuff. You lead, you set direction. You rarely go into the field yourself anymore though, sometimes, when the Captain needs things to get done, he may send you down. (Who knows how you may have somehow ended up as an XO on a ship.)"
+				}
 			]
 		},
 		"scg" : {

@@ -75,12 +75,12 @@
 				},
 				{
 					"titles" : ["Shuttle Pilot"],
-					"rates" : {"civ" : ["contractor"], "ec" : ["E7"], "fleet" : ["E7"]},
+					"rates" : {"civ" : ["contractor"], "ec" : ["E7"], "fleet" : ["E6", "E7"]},
 					"desc" : "Test"
 				},
 				{
 					"titles" : ["Explorer"],
-					"rates" : {"ec" : ["E7"], "fleet" : ["E7"]},
+					"rates" : {"ec" : ["E3", "E5"]},
 					"desc" : "Test"
 				}
 			]

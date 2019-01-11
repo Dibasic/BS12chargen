@@ -182,6 +182,24 @@ function populateDescFromRate() {
     return desc;
 }
 
+function getJobDesc(job) {
+    for (var d = 0; d < defs.depts.length; d++) {
+        for (var j = 0; j < defs.depts[d].jobs.length; j++) {
+            if (defs.depts[d].jobs[j].titles[0] == job) {
+                return defs.depts[d].jobs[j].desc;
+            }
+        }
+    }
+    return 'Failed to find that job.';
+}
+
+function populateDescFromJob() {
+    var job = $('#job').val();
+    var desc = getJobDesc(job);
+    $('#descJob').html(desc);
+    return job;
+}
+
 function setBindings() {
     console.log('setting bindings');
 
@@ -191,6 +209,7 @@ function setBindings() {
     $('#job').on('selectmenuchange', function() {
         populateTitleFromJob();
         populateBranchFromJob();
+        populateDescFromJob();
     });
     $('#branch').on('selectmenuchange', function() {
         populateRateFromJob();
@@ -207,6 +226,8 @@ function setBindings() {
         } else {
             check($('#lockJob'), false);
             check($('#lockTitle'), false);
+            check($('#lockBranch'), false);
+            check($('#lockRate'), false);
         }
         setLock($('#lockDept'));
     });
@@ -234,7 +255,8 @@ function setBindings() {
 
     $('#lockBranch').change(function() {
         if (this.checked) {
-
+            check($('#lockDept'), true);
+            check($('#lockJob'), true);
         } else {
             check($('#lockRate'), false);
         }

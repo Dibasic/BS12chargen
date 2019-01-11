@@ -6,32 +6,32 @@
 				{
 					"titles" : ["Commanding Officer"],
 					"rates" : {"ec" : ["O6"]},
-					"desc" : "Test"
+					"desc" : "The Commanding Officer (CO) or, in more casual settings, the Captain, is in charge of the SEV Torch and everything on it. It is their duty to make sure the SEV Torch carries out its mission, and makes it back to Sol in one piece. They are expected to be able to command their Heads of Staff effectively to ensure that all departments are running smoothly. They are the ultimate authority on the Torch, and have authorization to access anywhere on board, as well as the power to issue orders essentially without limit.\n\nObviously, as the role possesses so much power, it is recommended that only experienced players attempt the Commanding Officer position."
 				},
 				{
 					"titles" : ["Executive Officer"],
 					"rates" : {"ec" : ["O5"], "fleet" : ["O4", "O5"]},
-					"desc" : "Test"
+					"desc" : "The Executive Officer, also known as the XO, is responsible for making sure that all station departments aboard the SEV Torch are well-staffed and running optimally. As such, they are entrusted with the ability to modify crew assignments and access levels via an ID modifier console, something that only the Commanding Officer or AI can do otherwise. They are also responsible for managing the Supply and Service departments, as well as managing any personnel without an active Head of Staff.\n\nThe Executive Officer answers directly to the Commanding Officer, and is considered second-in-command both in terms of position and (usually) military rank."
 				},
 				{
 					"titles" : ["Senior Enlisted Advisor"],
 					"rates" : {"fleet" : ["E8", "E9", "E9a"]},
-					"desc" : "Test"
+					"desc" : "The Senior Enlisted Advisor, often shortened to SEA, is tasked primarily with the efficient running of the SEV Torch, ensuring standards, regulations and procedure are being met, enforcing these regulations on enlisted personnel as appropriate, and advising the Executive Officer and Commanding Officer on matters pertaining to enlisted personnel or the ship at large. The Senior Enlisted Advisor is considered one of the \"big three\" crew members ultimately in charge of the vessel, alongside the Executive and Commanding Officers."
 				},
 				{
 					"titles" : ["Bridge Officer"],
 					"rates" : {"ec" : ["O1"], "fleet" : ["O1"]},
-					"desc" : "Test"
+					"desc" : "The Bridge Officer is essentially an assistant to the rest of the Command department aboard the SEV Torch, responsible for monitoring various aspects of the ship's systems and communications, piloting the Torch, and bringing any issues to the attention of the appropriate personnel. The Bridge Officer is a good introduction and starting job for these wishing to delve into Command.\n\nBridge Officers answer directly to the Commanding Officer and Executive Officer but are outranked by line officers such as the Chief Engineer, Chief Medical Officer, or Chief of Security."
 				},
 				{
 					"titles" : ["SolGov Representative"],
 					"rates" : {"scg" : ["gov"]},
-					"desc" : "Test"
+					"desc" : "The SolGov Representative (or SCGR) is a unique civilian role on board the SEV Torch who represents the interests of the Sol Central Government on board the vessel."
 				},
 				{
 					"titles" : ["Workplace Liason", "Corporate Representative", "Corporate Executive", "Union Representative"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The Corporate Liaison is a unique role on board the Torch. They represent the mega-corporation Expeditionary Corps Organisations board of directors on board the SEV Torch, and they are responsible for both overseeing research operations and ensuring that Torch Command takes the desires of its corporate partners into account when deciding upon matters of ship procedure and planning. The Liaison investigates possible breaches of corporate regulations, reports to EXO via fax machine, and acts according to the company's orders.\n\nThe Liaison technically answers only to the board of directors, as explained below. An intelligent Liaison, however, will think very carefully before disobeying instructions from the Commanding Officer or other Command personnel."
 				}
 			]
 		},
@@ -41,27 +41,32 @@
 				{
 					"titles" : ["Chief Engineer"],
 					"rates" : {"ec" : ["O3"], "fleet" : ["O2", "O3"]},
-					"desc" : "Test"
+					"desc" : "The Chief Engineer, also called the CE, is in charge of the integrity of the SEV Torch and the ship AI's structural well-being. That means making sure that breaches are sealed promptly, that equipment remains operational, and that the AI doesn't get any weird laws. As the head of the Engineering department, they have authority over the ship's Engineers and Maintenance Assistants, and issue orders to ensure that they set up the engine correctly, that Atmospherics is properly configured, and that any mechanical faults are corrected quickly and efficiently. Towards this end, they have the Senior Engineer to act as their right hand; the Chief Engineer issues orders, and the Senior Engineer ensures that those orders are carried out. This frees up the Chief Engineer from having to worry about the details of execution, allowing them to focus on coordinating with the rest of Command and making big-picture decisions, rather than having to perform standard repairs.\n\nAs a line officer and department head, the Chief Engineer answers directly to the Executive Officer and the Commanding Officer."
 				},
 				{
 					"titles" : ["Senior Engineer"],
-					"rates" : {"ec" : ["E7"], "fleet" : ["E7", "E8"]},
-					"desc" : "Test"
+					"rates" : {"ec" : ["E7"], "fleet" : ["E6", "E7", "E8"]},
+					"desc" : "The Senior Engineer is the most senior and experienced enlisted member of the standard Engineering crew aboard the SEV Torch, and is responsible for overseeing the day-to-day operations of the department. They are in charge of seeing that the rest of the schlubs in the department know what they're supposed to be doing, and that they are actually doing so quickly and professionally. It is their job to translate the Chief Engineer's orders into actions, and to oversee those actions to be certain that everything is done correctly.\n\nThey are the executive to the Chief Engineer's administrator, the Sergeant to the commissioned officer, the one that turns the list of priorities and instructions into actual work by the rest of the department. They are the middle-man between the CE and the rest of Engineering, and they should coordinate closely with both.\n\nAs a senior enlisted crew member, the Senior Engineer answers directly to the Chief Engineer."
 				},
 				{
 					"titles" : ["Engineer"],
 					"rates" : {"ec" : ["E3", "E5"], "fleet" : ["E2", "E3", "E4", "E5"]},
-					"desc" : "Test"
+					"desc" : "The Ship Engineer, also more commonly known as just the Engineer is one of the central lynchpins that keeps the SEV Torch whizzing along through space. Almost all of the ship's bare essentials can be traced back to its Engineering staff: they keep the ship powered, breathing, not bathing in radioactivity, in good repair, and with functioning and unbroken lightbulbs, even in the case of unfortunate accidents. Almost any machinery-related issue on board the Torch is the ultimate responsibility of the ship Engineers.\n\nThe ship's Engineers answer directly to both the Chief Engineer and Senior Engineer. The Chief Engineer is the ultimate authority in the department, but the Senior Engineer is responsible for seeing that the Chief Engineer's orders are carried out, and they are generally also the most experienced and highest-ranking of the rank-and-file Engineering staff."
 				},
 				{
 					"titles" : ["Engineer Trainee"],
 					"rates" : {"ec" : ["E3"], "fleet" : ["E2"]},
-					"desc" : "Test"
+					"desc" : "There is no description for this role."
 				},
 				{
 					"titles" : ["Engineering Contractor"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The Engineering Contractor is, broadly speaking, the civilian equivalent of the crew Engineer, and most things that apply to Engineers apply to the Engineering Contractor. It is a wide-ranging job covering everything from entry-level Engineering personnel just learning the ropes to highly specialized contracted personnel hired to maintain specific, complicated subsystems on board the Torch.\n\nAs part of the Engineering department, the Engineering Contractor answers to the Chief Engineer and Senior Engineer. The Chief Engineer is the ultimate authority in the department, but the Senior Engineer is responsible for seeing that the Chief Engineer's orders are carried out, and they are generally also the most experienced and highest-ranking of the rank-and-file Engineering staff."
+				},
+				{
+					"titles" : ["Roboticist", "Mechsuit Technician"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "The ship Roboticist is primarily concerned with the production and maintenance of the ship's Cyborgs and robots. They may also be called upon to build a variety of exosuits, repair prosthetic limbs on various crew members, or transplant someone's brain into a cyborg shell or full-body prosthetic unit.\n\nAs part of the Engineering department, the Roboticist answers to the Chief Engineer."
 				}
 			]
 		},
@@ -71,17 +76,17 @@
 				{
 					"titles" : ["Pathfinder"],
 					"rates" : {"ec" : ["O1"]},
-					"desc" : "Test"
+					"desc" : "The Pathfinder is the individual in charge of away missions on the government's side. They're leading a team of hardy Explorers to find any exploitable resources or scientific oddities throughout uncharted space, whether it's planet-bound or in an abandoned ship - the Pathfinder is responsible for getting it done. The Pathfinder is only ever an Expeditionary Corps Ensign (O-1), and is a staff officer who reports directly to the Executive Officer and Commanding Officer."
 				},
 				{
 					"titles" : ["Shuttle Pilot"],
 					"rates" : {"civ" : ["contractor"], "ec" : ["E7"], "fleet" : ["E6", "E7"]},
-					"desc" : "Test"
+					"desc" : "The Shuttle Pilot is the dedicated pilot for any away missions. The Shuttle Pilot answers to the Pathfinder."
 				},
 				{
 					"titles" : ["Explorer"],
 					"rates" : {"ec" : ["E3", "E5"]},
-					"desc" : "Test"
+					"desc" : "The Explorer is the bread and butter of the Expeditionary Corps and help further the mission of the SEV Torch in deep space exploration. Led by the Pathfinder, their job is to embark on away missions and make new discoveries in the name of Sol Central Government."
 				}
 			]
 		},
@@ -91,22 +96,37 @@
 				{
 					"titles" : ["Chief Medical Officer"],
 					"rates" : {"ec" : ["O3"], "fleet" : ["O3", "O4"]},
-					"desc" : "Test"
+					"desc" : "The Chief Medical Officer, otherwise known as the CMO, is the ultimate authority when it comes to preserving the health of the crew aboard the SEV Torch. They make sure that the ship's Physicians are treating people effectively, that the Corpsmen are responding to emergency calls, that the Chemist is producing the needed medication, and that the Counselor is helping to keep the crew mentally stable.\n\nTheir department and usual place of work is in the Infirmary or Medical Bay on the first deck of the ship.\n\nAs the foremost medical professional on the ship, the CMO is expected to have the necessary knowledge and expertise to perform most - if not all - of the operations required by the department. However, their job is not to be the ultimate super-doctor; rather, it is to coordinate the efforts of their subordinates, only taking a direct hand in matters when absolutely necessary. The day-to-day operations of the department are under the purview of the Physicians, whereas the Chief Medical Officer exists to make sure that the Infirmary staff are well-equipped, well-informed, and well-coordinated."
 				},
 				{
 					"titles" : ["Physician", "Surgeon", "Trauma Surgeon"],
 					"rates" : {"ec" : ["O1"], "fleet" : ["O1", "O2"]},
-					"desc" : "Test"
+					"desc" : "The Physician is the primary Medical role and practitioner aboard the SEV Torch. Unlike the Corpsman, who is generally concerned with retrieving patients from the field and acting as a gopher for other Medical personnel, the Physician is expected to perform intensive medicine on a regular basis, ranging from checkups with the crew to intensive surgery. They are the main workhorse for the department, and should be ready to handle all manner of medical emergencies should they arise. As such, it is important to familiarize yourself with the systems involved by reading the Related Guides linked in the sidebar; odds are that you'll need to know everything contained in them at some point or another.\n\nPhysicians are staff officers and answer directly to the Chief Medical Officer."
 				},
 				{
 					"titles" : ["Corpsman", "Field Medic", "Paramedic"],
 					"rates" : {"ec" : ["E3", "E5"], "fleet" : ["E2", "E3", "E4", "E5", "E6"]},
-					"desc" : "Test"
+					"desc" : "The Corpsman is the primary medical first responder aboard the SEV Torch and, next to the Physician, the most vital part of the Medical machine. While the Physician handles most of the intensive cases, Corpsmen are tasked with the retrieval and stabilization of these patients. When a member of the crew is critically wounded and can't reach the Infirmary, it's the Corpsman's job to go and retrieve them. When there's a state of emergency on board the ship, it's the Corpsman's job to watch the sensors and make sure that no one's gotten hurt. When the Medbay is clogged with patients and the Physician is locked up in the operating theater, it's the Corpsman's job to make sure no one dies in the interim. When the Physician needs an extra pair of hands to keep a patient stable, it's the Corpsman's job to provide.\n\nYou may not hold a scalpel, or even a medical degree, but without you, Medical doesn't function. So put on your First Responder jacket, load up your medical belt, and make sure to keep those stasis bags handy. It's time to save some lives.\n\nAs enlisted personnel, Corpsmen answer directly to both Physicians and the Chief Medical Officer. You take orders from both, but the Chief Medical Officer is your ultimate boss, and their orders take priority."
 				},
 				{
 					"titles" : ["Medical Contractor"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The Medical Contractor is a catch-all role for civilian doctors, and covers a variety of specialist fields depending on which specific title is selected. The specific job description varies according to this also, but all Medical Contractors, as contracted personnel, are technically supposed to obey orders from all crew in the Medical department, no matter how low their rank. Given that Medical work is more a matter of qualifications than of rank, however, it's rare to see a Corpsman trying to issue orders to a Xenosurgeon or Virologist.\n\nLike all other Medical personnel, though, Contractors still answer to the Chief Medical Officer."
+				},
+				{
+					"titles" : ["Biomechanical Engineer"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "There is no description for this role."
+				},
+				{
+					"titles" : ["Counselor", "Chaplain", "Psychologist", "Psychiatrist"],
+					"rates" : {"civ" : ["contractor"], "ec" : ["O1"], "fleet" : ["O1", "O2"]},
+					"desc" : "The Counselor is the primary person responsible for the mental health and well-being of all personnel aboard the SEV Torch. While Physicians and Corpsmen are largely tasked with the physical well-being of the various persons aboard the Torch, the Counselor is concerned with their psychological health. They are also responsible for supplying religious services to crew who desire them, and for performing funeral rites.\n\nAs with other Medical personnel, the Counselor answers directly to the Chief Medical Officer."
+				},
+				{
+					"titles" : ["Chemist", "Pharmacist"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "The Chemist is the member of Medical staff responsible for creating medications for the Physicians and Corpsmen to use. They do little, if anything, in the way of hands-on doctoring, and are primarily concerned with making sure that the rest of the department has the drugs necessary to do their jobs. They also fill prescriptions for any member of the crew that requires them, and can create a variety of interesting non-medicinal concoctions in their laboratory if the need arises.\n\nAs a contractor, the Chemist answers directly to the Chief Medical Officer and, indirectly, any enlisted personnel or commissioned officers in the department."
 				}
 			]
 		},

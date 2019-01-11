@@ -136,22 +136,32 @@
 				{
 					"titles" : ["Research Director"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The Research Director is, along with the Corporate Liaison, the primary voice of corporate interest on board the Torch. They are responsible for administrating the activities of the ship's Scientists and other Research staff to ensure that corporate progress (and profit) is progressing optimally.\n\nThe Research Director answers to the Commanding Officer."
 				},
 				{
 					"titles" : ["Senior Researcher"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The most senior member of the Research crew, the Senior Researcher is in charge of seeing that the rest of the schlubs in the department know what they're supposed to be doing, and are actually doing so quickly and professionally. It is their job to translate the Research Director's orders into actions, and to oversee the day-to-day operations of the department to be certain that everything is done correctly. They are the executive to the Research Director's administrator, the Sergeant to the commissioned officer, the one that turns the list of priorities and instructions into actual work by the rest of the department.\n\nThey are the middle-man between the RD and the rest of Research, and should coordinate closely with both."
+				},
+				{
+					"titles" : ["Scientist", "Researcher", "Anomalist", "Xenoarchaeologist", "Xenobiologist", "Xenobotanist"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "The Scientist is one of the most freeform and wide-ranging jobs aboard the ship. Being a Scientist on the Torch means you can make and research loads of unique tools and gadgets, construct highly explosive or highly useful bombs, fly away to both mundane and strange places outside the ship on the Charon or the Guppy for mining or archaeological purposes, and even interact with the occasional alien life.\n\nScientists answer to the Senior Researcher and Research Director under most circumstances. If neither of these personnel are available, Scientists answer to the Corporate Liaison."
 				},
 				{
 					"titles" : ["Xenolife Technician"],
 					"rates" : {"ec" : ["E5", "E7", "O1"]},
-					"desc" : "Test"
+					"desc" : "The Xenolife Technician is a uniformed Scientist. The Xenolife Technician reports to the Research Director."
+				},
+				{
+					"titles" : ["Security Guard"],
+					"rates" : {"civ" : ["contractor"]},
+					"desc" : "The Security Guard is the research division's dedicated asset protection force on board the Torch. Their primary job is to keep the Research department safe from any and all threats, up to and including the incompetent Scientists themselves, and thus preserve the company's precious investments.\n\nThe Security Guard answers to the Research Director. If there is no Research Director, they should follow research's chain of command on board - the Senior Researcher and Corporate Liaison."
 				},
 				{
 					"titles" : ["Research Assistant", "Custodian", "Testing Assistant", "Laboratory Technician", "Intern", "Clerk", "Field Assistant"],
 					"rates" : {"civ" : ["contractor"], "scg" : ["scientist"]},
-					"desc" : "Test"
+					"desc" : "The Research Assistant is a catch-all job for various types of laboratory helpers. It serves mainly to help the Scientists in any way they require, and, due to this, serves as an excellent entry point for newer players wanting to learn more about Research.\n\nResearch Assistants normally answer to the Senior Researcher and Research Director, with the Director's orders taking precedence. If neither of these personnel are present, Research Assistants answer to the Corporate Liaison."
 				}
 			]
 		},
@@ -211,22 +221,22 @@
 				{
 					"titles" : ["Deck Chief"],
 					"rates" : {"ec" : ["E7"], "fleet" : ["E6", "E7", "E8"]},
-					"desc" : "Test"
+					"desc" : "The Deck Chief, also known as the DC, is tasked with running the Cargo Bay. They are primarily concerned with approving orders given to the Supply department and ensuring that the Deck Technicians do their jobs in making sure that said orders are received, catalogued, and shipped out to their proper destinations.\n\nAs part of the Supply department, the Deck Chief answers to the Executive Officer."
 				},
 				{
 					"titles" : ["Deck Technician"],
 					"rates" : {"ec" : ["E3"], "fleet" : ["E2", "E3", "E4"]},
-					"desc" : "Test"
+					"desc" : "The Deck Technician is the grunt worker of the Cargo Bay. They are responsible for sending mail, receiving cargo, and generally ensuring that all the deliveries to the Supply department get where they need to go.\n\nAs members of the Supply department, Deck Technicians answer to both the Deck Chief and the Executive Officer, though the Deck Chief is by far the more active of the two in this regard."
 				},
 				{
 					"titles" : ["Supply Assistant"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The Supply Assistant is either a civilian Deck Technician, a Deck Technician in training, or both. The roles are otherwise identical in every respect.\n\nThey answer to normal Deck Technicians, the Deck Chief, and the Executive Officer, in ascending order of importance."
 				},
 				{
 					"titles" : ["Prospector", "Drill Technician", "Shaft Miner", "Salvage Technician"],
 					"rates" : {"civ" : ["contractor"]},
-					"desc" : "Test"
+					"desc" : "The Prospector is a dedicated salvage, mining, archaeology, and specimen retrieval workhorse. They join in away missions in an attempt to retrieve valuable minerals, samples, and artifacts for use by the rest of the department.\n\nThe Prospector answers to the Research Director."
 				}
 			]
 		},
@@ -236,7 +246,7 @@
 				{
 					"titles" : ["Passenger", "Journalist", "Historian", "Botanist", "Investor", "Naturalist", "Ecologist", "Entertainer", "Independent Observer", "Sociologist", "Trainer"],
 					"rates" : {"civ" : ["civ"]},
-					"desc" : "Test"
+					"desc" : "The Passenger is simply along for the ride. It has no authority and no responsibilities on board the Torch, and simply wanders the halls looking for ways to entertain itself. Utilize the alternate titles! They offer unique roleplay opportunities. Ecologists, Naturalists, and Historians may be able to convince the right people that they'd be valuable on an away mission. Botanists may be able to convince Explorers to let them take a look at plants retrieved from exoplanets. A Sociologist could go around and ask people questions about their workplace. An Entertainer could collaborate with the Bartender or Cook to create something interesting in the galley. As an Investor, try engaging with the Corporate Liaison, Captain and SCGR - flaunt your cash!\n\nThe Passenger has no department head. As such, the Executive Officer is responsible for ensuring that they stay out of trouble."
 				}
 			]
 		}

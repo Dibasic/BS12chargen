@@ -26,6 +26,15 @@ function populateDept() {
 
 function populateJob(deptName) {
     // Avoiding a REALLY annoying jquery ui bug here.
+    // The bug occurs when running selectmenu functions on select elements with no options.
+    // The bug causes the selectmenu to silently fail to initialize or refresh.
+    // In addition, the controlgroup format breaks flow upon the workaround of recreating the selectmenu.
+
+    // The workaround I have found to safely empty the select element is to
+    // attempt to initialize it, then destroy it, then empty the child options
+    // and the workaround to safely refresh the selectmenu is to
+    // destroy and recreate the controlgroup it lives in.
+
     $('#job').selectmenu().selectmenu('destroy').empty();
     $.each(defs.depts, function(i, dept) {
         if (dept.name == deptName) {

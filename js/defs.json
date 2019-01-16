@@ -135,17 +135,17 @@
 			"jobs": [
 				{
 					"titles" : ["Chief Science Officer"],
-					"rates" : {"ec" : ["o3"]},
+					"rates" : {"ec" : ["O3"]},
 					"desc" : "The Chief Science Officer is, along with the Corporate Liaison, the primary voice of corporate interest on board the Torch. They are responsible for administrating the activities of the ship's Scientists and other Research staff to ensure that corporate progress (and profit) is progressing optimally.\n\nThe Chief Science Officer answers to the Commanding Officer."
 				},
 				{
 					"titles" : ["Senior Researcher", "Research Supervisor"],
-					"rates" : {"ec" : ["o1"]},
+					"rates" : {"ec" : ["O1"]},
 					"desc" : "The most senior member of the Research crew, the Senior Researcher is in charge of seeing that the rest of the schlubs in the department know what they're supposed to be doing, and are actually doing so quickly and professionally. It is their job to translate the Chief Science Officer's orders into actions, and to oversee the day-to-day operations of the department to be certain that everything is done correctly. They are the executive to the Chief Science Officer's administrator, the Sergeant to the commissioned officer, the one that turns the list of priorities and instructions into actual work by the rest of the department.\n\nThey are the middle-man between the CSO and the rest of Research, and should coordinate closely with both."
 				},
 				{
 					"titles" : ["Scientist", "Researcher", "Anomalist", "Xenoarchaeologist", "Xenobiologist", "Xenobotanist"],
-					"rates" : {"ec" : ["o1"], "civ" : ["contractor"], "scg" : ["scientist"]},
+					"rates" : {"ec" : ["O1"], "civ" : ["contractor"], "scg" : ["scientist"]},
 					"desc" : "The Scientist is one of the most freeform and wide-ranging jobs aboard the ship. Being a Scientist on the Torch means you can make and research loads of unique tools and gadgets, construct highly explosive or highly useful bombs, fly away to both mundane and strange places outside the ship on the Charon or the Guppy for mining or archaeological purposes, and even interact with the occasional alien life.\n\nScientists answer to the Senior Researcher and Chief Science Officer under most circumstances. If neither of these personnel are available, Scientists answer to the Corporate Liaison."
 				},
 				{
